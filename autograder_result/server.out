@@ -1,0 +1,10 @@
+here1
+here2
+<class 'int'>
+<class 'str'>
+
+here1
+here3
+<class 'int'>
+<class 'str'>
+need 3 replicas, but only have 2

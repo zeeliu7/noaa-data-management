@@ -1,0 +1,167 @@
+Will pause after execution of cells containing comments ['#q4', '#q7']
+Running cell 0
+Running cell 1
+Running cell 2
+Running cell 3
+Running cell 4
+Running cell 5
+Running cell 6
+Running cell 7
+Running cell 8
+Running cell 9
+Running cell 10
+Running cell 11
+Running cell 12
+Running cell 13
+Running cell 14
+Running cell 15
+Running cell 16
+:: loading settings :: url = jar:file:/usr/local/lib/python3.10/dist-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+com.datastax.spark#spark-cassandra-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-d40c4321-a0b1-4556-850f-4d63e7dc4d24;1.0
+	confs: [default]
+	found com.datastax.spark#spark-cassandra-connector_2.12;3.4.0 in central
+	found com.datastax.spark#spark-cassandra-connector-driver_2.12;3.4.0 in central
+	found com.datastax.oss#java-driver-core-shaded;4.13.0 in central
+	found com.datastax.oss#native-protocol;1.5.0 in central
+	found com.datastax.oss#java-driver-shaded-guava;25.1-jre-graal-sub-1 in central
+	found com.typesafe#config;1.4.1 in central
+	found org.slf4j#slf4j-api;1.7.26 in central
+	found io.dropwizard.metrics#metrics-core;4.1.18 in central
+	found org.hdrhistogram#HdrHistogram;2.1.12 in central
+	found org.reactivestreams#reactive-streams;1.0.3 in central
+	found com.github.stephenc.jcip#jcip-annotations;1.0-1 in central
+	found com.github.spotbugs#spotbugs-annotations;3.1.12 in central
+	found com.google.code.findbugs#jsr305;3.0.2 in central
+	found com.datastax.oss#java-driver-mapper-runtime;4.13.0 in central
+	found com.datastax.oss#java-driver-query-builder;4.13.0 in central
+	found org.apache.commons#commons-lang3;3.10 in central
+	found com.thoughtworks.paranamer#paranamer;2.8 in central
+	found org.scala-lang#scala-reflect;2.12.11 in central
+downloading https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.12/3.4.0/spark-cassandra-connector_2.12-3.4.0.jar ...
+	[SUCCESSFUL ] com.datastax.spark#spark-cassandra-connector_2.12;3.4.0!spark-cassandra-connector_2.12.jar (157ms)
+downloading https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector-driver_2.12/3.4.0/spark-cassandra-connector-driver_2.12-3.4.0.jar ...
+	[SUCCESSFUL ] com.datastax.spark#spark-cassandra-connector-driver_2.12;3.4.0!spark-cassandra-connector-driver_2.12.jar (148ms)
+downloading https://repo1.maven.org/maven2/com/datastax/oss/java-driver-core-shaded/4.13.0/java-driver-core-shaded-4.13.0.jar ...
+	[SUCCESSFUL ] com.datastax.oss#java-driver-core-shaded;4.13.0!java-driver-core-shaded.jar (363ms)
+downloading https://repo1.maven.org/maven2/com/datastax/oss/java-driver-mapper-runtime/4.13.0/java-driver-mapper-runtime-4.13.0.jar ...
+	[SUCCESSFUL ] com.datastax.oss#java-driver-mapper-runtime;4.13.0!java-driver-mapper-runtime.jar(bundle) (32ms)
+downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar ...
+	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.10!commons-lang3.jar (54ms)
+downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar ...
+	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle) (29ms)
+downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.11/scala-reflect-2.12.11.jar ...
+	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.11!scala-reflect.jar (201ms)
+downloading https://repo1.maven.org/maven2/com/datastax/oss/native-protocol/1.5.0/native-protocol-1.5.0.jar ...
+	[SUCCESSFUL ] com.datastax.oss#native-protocol;1.5.0!native-protocol.jar(bundle) (43ms)
+downloading https://repo1.maven.org/maven2/com/datastax/oss/java-driver-shaded-guava/25.1-jre-graal-sub-1/java-driver-shaded-guava-25.1-jre-graal-sub-1.jar ...
+	[SUCCESSFUL ] com.datastax.oss#java-driver-shaded-guava;25.1-jre-graal-sub-1!java-driver-shaded-guava.jar (126ms)
+downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar ...
+	[SUCCESSFUL ] com.typesafe#config;1.4.1!config.jar(bundle) (47ms)
+downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar ...
+	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar (28ms)
+downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.1.18/metrics-core-4.1.18.jar ...
+	[SUCCESSFUL ] io.dropwizard.metrics#metrics-core;4.1.18!metrics-core.jar(bundle) (29ms)
+downloading https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar ...
+	[SUCCESSFUL ] org.hdrhistogram#HdrHistogram;2.1.12!HdrHistogram.jar(bundle) (32ms)
+downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar ...
+	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.3!reactive-streams.jar (34ms)
+downloading https://repo1.maven.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar ...
+	[SUCCESSFUL ] com.github.stephenc.jcip#jcip-annotations;1.0-1!jcip-annotations.jar (27ms)
+downloading https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.12/spotbugs-annotations-3.1.12.jar ...
+	[SUCCESSFUL ] com.github.spotbugs#spotbugs-annotations;3.1.12!spotbugs-annotations.jar (31ms)
+downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar ...
+	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar (26ms)
+downloading https://repo1.maven.org/maven2/com/datastax/oss/java-driver-query-builder/4.13.0/java-driver-query-builder-4.13.0.jar ...
+	[SUCCESSFUL ] com.datastax.oss#java-driver-query-builder;4.13.0!java-driver-query-builder.jar(bundle) (35ms)
+:: resolution report :: resolve 5180ms :: artifacts dl 1478ms
+	:: modules in use:
+	com.datastax.oss#java-driver-core-shaded;4.13.0 from central in [default]
+	com.datastax.oss#java-driver-mapper-runtime;4.13.0 from central in [default]
+	com.datastax.oss#java-driver-query-builder;4.13.0 from central in [default]
+	com.datastax.oss#java-driver-shaded-guava;25.1-jre-graal-sub-1 from central in [default]
+	com.datastax.oss#native-protocol;1.5.0 from central in [default]
+	com.datastax.spark#spark-cassandra-connector-driver_2.12;3.4.0 from central in [default]
+	com.datastax.spark#spark-cassandra-connector_2.12;3.4.0 from central in [default]
+	com.github.spotbugs#spotbugs-annotations;3.1.12 from central in [default]
+	com.github.stephenc.jcip#jcip-annotations;1.0-1 from central in [default]
+	com.google.code.findbugs#jsr305;3.0.2 from central in [default]
+	com.thoughtworks.paranamer#paranamer;2.8 from central in [default]
+	com.typesafe#config;1.4.1 from central in [default]
+	io.dropwizard.metrics#metrics-core;4.1.18 from central in [default]
+	org.apache.commons#commons-lang3;3.10 from central in [default]
+	org.hdrhistogram#HdrHistogram;2.1.12 from central in [default]
+	org.reactivestreams#reactive-streams;1.0.3 from central in [default]
+	org.scala-lang#scala-reflect;2.12.11 from central in [default]
+	org.slf4j#slf4j-api;1.7.26 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   18  |   18  |   18  |   0   ||   18  |   18  |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-d40c4321-a0b1-4556-850f-4d63e7dc4d24
+	confs: [default]
+	18 artifacts copied, 0 already retrieved (18067kB/96ms)
+23/11/21 18:40:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Running cell 17
+Running cell 18
+Running cell 19
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                Running cell 20
+Running cell 21
+Running cell 22
+Running cell 23
+Running cell 24
+Running cell 25
+Running cell 26
+[Stage 2:=============================>                             (1 + 1) / 2]                                                                                Running cell 27
+Running cell 28
+Running cell 29
+Running cell 30
+Running cell 31
+/bin/sh: 1: docker: not found
+Running cell 32
+Wrote file to autograder_result/q4.cell
+Waiting for file autograder_result/q4.cell to be removed
+File autograder_result/q4.cell has been removed
+Running cell 33
+Running cell 34
+Running cell 35
+Running cell 36
+[Stage 3:>                                                          (0 + 1) / 1]                                                                                Running cell 37
+[Stage 4:>                                                          (0 + 1) / 1]                                                                                Running cell 38
+[Stage 5:>                                                          (0 + 2) / 2][Stage 7:>                                                          (0 + 1) / 1]                                                                                Running cell 39
+Running cell 40
+Running cell 41
+Running cell 42
+Running cell 43
+Running cell 44
+Running cell 45
+Running cell 46
+Running cell 47
+Running cell 48
+Running cell 49
+Running cell 50
+Running cell 51
+Running cell 52
+Running cell 53
+Running cell 54
+Running cell 55
+Running cell 56
+Running cell 57
+Wrote file to autograder_result/q7.cell
+Waiting for file autograder_result/q7.cell to be removed
+23/11/21 18:42:12 WARN ChannelPool: [s0|p6-db-2/192.168.0.3:9042]  Error while opening new channel (ConnectionInitException: [s0|connecting...] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.13.0, CLIENT_ID=dad568a1-e2ea-44d9-af00-34a497ece204, APPLICATION_NAME=Spark-Cassandra-Connector-local-1700592049979}): failed to send request (java.nio.channels.NotYetConnectedException))
+23/11/21 18:42:19 WARN ChannelPool: [s0|p6-db-2/192.168.0.3:9042]  Error while opening new channel (ConnectionInitException: [s0|connecting...] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.13.0, CLIENT_ID=dad568a1-e2ea-44d9-af00-34a497ece204, APPLICATION_NAME=Spark-Cassandra-Connector-local-1700592049979}): failed to send request (java.nio.channels.NotYetConnectedException))
+23/11/21 18:42:28 WARN ChannelPool: [s0|p6-db-2/192.168.0.3:9042]  Error while opening new channel (ConnectionInitException: [s0|connecting...] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.13.0, CLIENT_ID=dad568a1-e2ea-44d9-af00-34a497ece204, APPLICATION_NAME=Spark-Cassandra-Connector-local-1700592049979}): failed to send request (java.nio.channels.NotYetConnectedException))
+File autograder_result/q7.cell has been removed
+Running cell 58
+Running cell 59
+Running cell 60
+Running cell 61
+Running cell 62
+23/11/21 18:42:41 WARN UncaughtExceptions: Uncaught exception in scheduled task (CompletionException: java.util.concurrent.RejectedExecutionException: event executor terminated)
